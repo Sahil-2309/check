@@ -7,7 +7,7 @@ export const IndexStack = styled(Stack)(({ theme }) => ({
   marginBottom: theme.spacing(3),
 }))
 
-export const IndexLink = styled(Link)(({ theme }) => ({
+export const IndexLink = styled(Link)(({}) => ({
   textDecoration: 'none',
   color: '#white',
   fontWeight: 500,
