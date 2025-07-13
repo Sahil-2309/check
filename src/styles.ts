@@ -8,7 +8,6 @@ export const IndexStack = styled(Stack)(({ theme }) => ({
 }))
 
 export const IndexLink = styled(Link)(({}) => ({
-  textDecoration: 'none',
   color: '#white',
   fontWeight: 500,
   fontSize: '1rem',

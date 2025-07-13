@@ -11,15 +11,9 @@ function App() {
         MUI TS App
       </Typography>
       <IndexStack>
-        <IndexLink href='#home' underline='none'>
-          Home
-        </IndexLink>
-        <IndexLink href='#about' underline='none'>
-          About
-        </IndexLink>
-        <IndexLink href='#contact' underline='none'>
-          Contact
-        </IndexLink>
+        <IndexLink href='#home'>Home</IndexLink>
+        <IndexLink href='#about'>About</IndexLink>
+        <IndexLink href='#contact'>Contact</IndexLink>
       </IndexStack>
       <Box mb={4}>
         <Home />
