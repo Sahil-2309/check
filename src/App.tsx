@@ -1,5 +1,5 @@
 import { Box, Typography } from '@mui/material'
-import { IndexStack, IndexLink } from './styles'
+import { IndexStack, IndexLink, Index2Link } from './styles'
 import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
@@ -15,7 +15,7 @@ function App() {
           Home
         </IndexLink>
         <IndexLink href='#about'>About</IndexLink>
-        <IndexLink href='#contact'>Contact</IndexLink>
+        <Index2Link href='#contact'>Contact</Index2Link>
       </IndexStack>
       <Box mb={4}>
         <Home />

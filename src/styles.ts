@@ -12,3 +12,10 @@ export const IndexLink = styled(Link)(({}) => ({
   fontWeight: 500,
   fontSize: '1rem',
 }))
+
+export const Index2Link = styled(Link)(({}) => ({
+  textDecoration: 'none',
+  color: '#white',
+  fontWeight: 500,
+  fontSize: '1rem',
+}))
